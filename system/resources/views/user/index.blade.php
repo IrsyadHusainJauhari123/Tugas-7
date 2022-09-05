@@ -26,7 +26,7 @@
                                 <td>{{ $loop->iteration }}</td>
                                 <td>
                                     <div class="btn-group">
-                                        <a href="{{ url('admin/user', $user->id) }}" class="btn btn dark "><i
+                                        <a href="{{ url('admin/user', $user->id) }}" class="btn btn-dark "><i
                                                 class="fa fa-info"></i></a>
                                         <a href="{{ url('admin/user', $user->id) }}/edit" class="btn btn-warning"><i
                                                 class="fa fa-edit"></i></a>
